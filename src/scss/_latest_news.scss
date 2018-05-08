@@ -1,0 +1,41 @@
+.latest_news , .all_body{
+	@include padding(100px ,0);
+	.card{
+		border:none;
+		.card-body{
+	       padding-left:0px;
+		  }
+		  
+    }
+    .prev{
+    font-size:15px;
+    }
+     .page-link:hover{
+      background-color:$main_color;
+
+     }
+     .page-link{
+     color:#000;
+     }
+    .right_menue{
+	       p{
+	       display: inline-block;
+	       }
+
+	       button{
+	       background-color:#fff;
+	       border:.2px solid #cfcfcf;
+	       box-shadow: none;
+	       }
+       }
+    .quote_color{
+    color:$main_color;
+    font-size:50px;
+    }   
+}
+.latest_news{
+	img:hover{
+		  opacity:.2;
+		  cursor: zoom-in;
+		  }
+}

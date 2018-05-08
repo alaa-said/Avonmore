@@ -1,0 +1,15 @@
+.single_portfolio{
+	@include padding(100px ,0);
+
+	button{
+		border:1px solid #cfcfcf;
+		background-color:#fff;
+		box-shadow: none;
+
+
+	}
+
+	button:hover{
+	background-color:$main_color;
+	}
+}

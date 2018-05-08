@@ -1,0 +1,29 @@
+.all{
+	@include padding(100px ,0);
+
+	.card{
+	border:none;
+	}
+
+	span{
+	font-size:11px;
+	}
+
+	img:hover{
+	      opacity:.2;
+		  cursor: zoom-in;
+	}
+
+	
+}
+
+.links{
+		.active{
+		 color:$main_color;
+		}
+		hr{
+		 border:1px solid $main_color;
+		 width:10px;
+		 margin:0 px;
+		 }
+	}

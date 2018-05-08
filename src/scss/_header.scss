@@ -1,0 +1,15 @@
+.home header{
+
+@include img_header(url("../imgs/index/section-bg-1.jpg"));
+height:120vh;
+   
+	.table{
+	   @include table(100vh,70%);
+	   .hh1{
+			font-size:100px;
+		    }
+	   .hh5{
+			font-size:24pt;
+		   }
+	}
+}

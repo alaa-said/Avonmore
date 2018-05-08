@@ -1,0 +1,10 @@
+.contact_hr{
+	.table{
+		
+			@include table(40vh,40%);
+		}
+
+		hr{
+		border-color:$main_color;
+		}
+}
